@@ -1,0 +1,33 @@
+# General
+*.swp
+*~
+
+# Automake / autoconf
+Makefile
+Makefile.in
+/autom4te.cache
+/aclocal.m4
+/compile
+/configure
+/config.h
+/config.h.in
+/config.guess
+/config.log
+/config.status
+/config.sub
+/confdefs.h
+/conftest.c
+/conftest.err
+/depcomp
+/install-sh
+/missing
+/stamp-h1
+.deps
+
+# Local debian directory
+/debian
+
+# Generated files
+*.a
+*.o
+wmweather+
